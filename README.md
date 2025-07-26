@@ -1,6 +1,7 @@
 # gliStupid_onelifer
 <aside>
-💡
+💡demo : https://drive.google.com/drive/folders/16JutooWcHDHDuZaAYyr44V0kz3sEpHbC?usp=drive_link
+
 
 328  source pvenv/bin/activate
 329  pip install flask_cors
