@@ -20,12 +20,14 @@ def detect_cringe(phrase):
             score += 2
     
     if score >= 2:
-        return "🟥 CRINGE"
+        return "CRINGE"
     elif score == 1:
-        return "🟨 Moyennement cringe"
+        return "Moyennement cringe"
     else:
-        return "🟩 Confiant"
+        return "Confiant"
+
 
 # Test
-print(detect_cringe("Cc, t ki ? 😘"))
-print(detect_cringe("Salut, j’ai adoré ton style dans ta bio"))
+if __name__=="__main__":
+    print(detect_cringe("Cc, t ki ? 😘"))
+    print(detect_cringe("Salut, j’ai adoré ton style dans ta bio"))

@@ -5,9 +5,6 @@
 328  source pvenv/bin/activate
 329  pip install flask_cors
 330  pip install deepface
-331  pip install sklearn.feature_extraction.text
-332  pip install sklearn.feature_extraction.text
-333  pip install sklearn
 334  pip install scikit-learn
 335  pip install transformers
 336  history

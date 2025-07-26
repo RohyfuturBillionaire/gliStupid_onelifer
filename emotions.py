@@ -52,4 +52,9 @@ def analyze_face(image_path):
         return result
     except Exception as e:
         return {"error": str(e)}
+    
+if __name__=="__main__":
+    res=analyze_face("/home/event/Documents/gliStupid_onelifer/photo1.jpeg")
+    print(res)
 
+# print(analyze_face("photo.jpg"))
